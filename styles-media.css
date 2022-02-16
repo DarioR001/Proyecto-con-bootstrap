@@ -48,6 +48,10 @@ body {
     margin: auto;
 } 
 
+#carouselExampleControls img {
+    height: 30rem;
+}
+
 
 
 .parralax {
@@ -77,10 +81,6 @@ body {
     padding: 2rem 0rem 1rem 0rem;
     text-decoration: underline;
     opacity: 0.9;
-}
-
-#imgseg {
-    height: 30rem;
 }
 
 
@@ -120,4 +120,10 @@ form {
     display: flex;
     justify-content: center;
     margin-top: 3rem;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 700px) {
+    #carouselExampleControls {
+        display: none;
+    }
 }
