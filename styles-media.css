@@ -1,0 +1,123 @@
+/* Bootstrap Breakpoints */
+
+
+/* Pantallas de 0px hasta 575px de ancho */
+
+@media (max-width: 575px) {}
+
+
+/* Pantallas de 576px de ancho o más */
+
+@media (min-width: 576px) {}
+
+
+/* Pantallas de 768px de ancho o más */
+
+@media (min-width: 768px) {}
+
+
+/* Pantallas de 992px de ancho o más */
+
+@media (min-width: 992px) {}
+
+
+/* Pantallas de 1200px de ancho o más */
+
+@media (min-width: 1200px) {}
+
+
+/* Pantallas de 1400px de ancho o más */
+
+@media (min-width: 1400px) {}
+
+
+/**/
+
+/*Index*/
+
+body {
+    background-image: url("assets/fondopagina.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#carouselExampleControls {
+    width: 40rem;
+    margin: auto;
+} 
+
+
+
+.parralax {
+    color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-image: url("assets/parralax.jpg");
+    background-attachment: fixed;
+}
+
+
+.tablaInd {
+    text-align: left;
+    border: solid 0.1rem grey;
+    width: 40rem;
+}
+
+.nav-item, .dropdown-item {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+
+/*seeguridad*/
+
+.subtituloseg{
+    padding: 2rem 0rem 1rem 0rem;
+    text-decoration: underline;
+    opacity: 0.9;
+}
+
+#imgseg {
+    height: 30rem;
+}
+
+
+.tablaSeg {
+    text-align: left;
+    border: solid 0.1rem grey;
+    width: 40rem;
+}
+
+/*primeros auxilios*/
+
+#imgPA {
+    height: 30rem;
+}
+
+/*Contacto*/
+.tablaCon {
+    text-align: center;
+    border: solid 0.1rem grey;
+    width: 25rem;
+    background-color: white;
+}
+
+.tablaCon a {
+    text-decoration: none;
+    color: black;
+}
+
+form {
+    text-align: center;
+    border: solid 0.1rem grey;
+    width: 25rem;
+    padding: 1rem;
+}
+
+.tableCon {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
